@@ -2,6 +2,7 @@
 
 import Image from "next/image"; // Gunakan komponen Image dari Next.js untuk optimasi
 import FeatureCard from "./components/FeatureCard";
+import SliderCard from "./components/SliderCard";
 
 // Ikon dari Heroicons (contoh)
 const HeartIcon = () => (
@@ -42,16 +43,19 @@ export default function SmartWatchPage() {
   return (
     <div className="container mx-auto px-4 py-12">
       {/* Hero Section */}
+      <section className="text-center h-48">
+        <SliderCard />
+      </section>
       <section className="text-center">
         {/* Kamu bisa ganti src dengan URL gambar dari Unsplash/Pexels */}
-        <Image
+        {/* <Image
           src="/pexels-alexandr-borecky-128389-393047.jpg" // Simpan gambar di folder `public`
           alt="Smartwatch product image"
           width={300}
           height={300}
           className="mx-auto mb-8"
-        />
-        <h1 className="text-5xl font-extrabold tracking-tight">
+        /> */}
+        <h1 className="text-5xl font-extrabold tracking-tight mt-2">
           The Future on Your Wrist
         </h1>
         <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400">
