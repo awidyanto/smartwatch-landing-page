@@ -72,7 +72,7 @@ export default function ProductCard() {
                 <Image
                   width={500}
                   height={200}
-                  src={"/" + link.filename}
+                  src={"/product/" + link.filename}
                   alt="placeholder-image"
                   className="w-full"
                 />

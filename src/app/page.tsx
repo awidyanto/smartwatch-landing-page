@@ -3,6 +3,7 @@
 import FeatureCard from "./components/FeatureCard";
 import ProductCard from "./components/ProductCard";
 import PromotText from "./components/PromotText";
+import TestimonialCard from "./components/TestimonialCard";
 
 // Ikon dari Heroicons (contoh)
 const HeartIcon = () => (
@@ -173,7 +174,9 @@ export default function SmartWatchPage() {
         <h2 className="text-3xl font-bold text-center mb-10">
           Testimonial
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8"></div>
+        <div className="">
+          <TestimonialCard />
+        </div>
       </section>
     </div>
   );
