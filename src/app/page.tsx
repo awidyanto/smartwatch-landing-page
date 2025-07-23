@@ -2,6 +2,7 @@
 
 import FeatureCard from "./components/FeatureCard";
 import ProductCard from "./components/ProductCard";
+import PromotText from "./components/PromotText";
 
 // Ikon dari Heroicons (contoh)
 const HeartIcon = () => (
@@ -110,12 +111,16 @@ export default function SmartWatchPage() {
     <div className="container mx-auto px-4 py-12">
       {/* Hero Section */}
       <section className="text-center">
-        <ProductCard />
-      </section>
-      <section className="text-center">
-        <h1 className="text-5xl font-extrabold tracking-tight mt-6">
+        <h1 className="text-5xl font-extrabold tracking-tight mb-6">
           The Future on Your Wrist
         </h1>
+        <section className="text-center">
+          <ProductCard />
+          <h3 className="text-3xl font-extrabold tracking-tight m-6 text-amber-300">
+            <PromotText />
+          </h3>
+        </section>
+
         <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-400">
           Experience seamless connectivity and track your health like never
           before. Elegance meets technology.
@@ -161,6 +166,14 @@ export default function SmartWatchPage() {
           />
           {/* Panggil FeatureCard lagi dengan props berbeda */}
         </div>
+      </section>
+
+      {/* Testimonial Section */}
+      <section className="mt-20">
+        <h2 className="text-3xl font-bold text-center mb-10">
+          Testimonial
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8"></div>
       </section>
     </div>
   );
