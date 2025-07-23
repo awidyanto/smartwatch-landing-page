@@ -63,7 +63,7 @@ export default function ProductCard() {
       >
         {links.map((link, index) => (
           <div key={index} className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <SwiperSlide>
+            <SwiperSlide key={index}>
               <a
                 href={"https://www.garmin.co.id/"}
                 target="_blank"
