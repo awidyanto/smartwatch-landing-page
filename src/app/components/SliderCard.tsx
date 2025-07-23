@@ -54,11 +54,11 @@ export default function SliderCard() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="p-30 my-5">
+          <div className="p-30">
             <Image
-              width={300}
-              height={150}
-              src={"/pexels-alexandr-borecky-128389-393047.jpg"}
+              width={100}
+              height={300}
+              src={"/smartwacth01.jpg"}
               alt="placeholder-image"
               className="w-full"
             />
@@ -67,9 +67,9 @@ export default function SliderCard() {
         <SwiperSlide>
           <div className="p-30 my-5">
             <Image
-              width={300}
-              height={150}
-              src={"/pexels-regeci-9584702.jpg"}
+              width={100}
+              height={300}
+              src={"/smartwatch02.webp"}
               alt="placeholder-image"
               className="w-full"
             />
@@ -78,9 +78,9 @@ export default function SliderCard() {
         <SwiperSlide>
           <div className="p-30 my-5">
             <Image
-              width={300}
-              height={150}
-              src={"/pexels-tdcat-437037.jpg"}
+              width={100}
+              height={300}
+              src={"/smartwatch03.webp"}
               alt="placeholder-image"
               className="w-full"
             />
@@ -89,9 +89,64 @@ export default function SliderCard() {
         <SwiperSlide>
           <div className="p-30 my-5">
             <Image
-              width={300}
-              height={150}
-              src={"/pexels-vedant-sharma-146194-440320.jpg"}
+              width={100}
+              height={300}
+              src={"/smartwatch04.webp"}
+              alt="placeholder-image"
+              className="w-full"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="p-30 my-5">
+            <Image
+              width={100}
+              height={300}
+              src={"/smartwatch04.webp"}
+              alt="placeholder-image"
+              className="w-full"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="p-30 my-5">
+            <Image
+              width={100}
+              height={300}
+              src={"/smartwatch05.webp"}
+              alt="placeholder-image"
+              className="w-full"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="p-30 my-5">
+            <Image
+              width={100}
+              height={300}
+              src={"/smartwatch06.webp"}
+              alt="placeholder-image"
+              className="w-full"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="p-30 my-5">
+            <Image
+              width={100}
+              height={300}
+              src={"/smartwatch07.webp"}
+              alt="placeholder-image"
+              className="w-full"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="p-30 my-5">
+            <Image
+              width={100}
+              height={300}
+              src={"/smartwatch08.webp"}
               alt="placeholder-image"
               className="w-full"
             />
